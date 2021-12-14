@@ -1,0 +1,21 @@
+{
+    "name": "utachi68/special-order-comment",
+    "description": "Advox SpecialOrderComment",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Dung Trinh",
+            "email": "dung89sr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mageplaza\\Multiflatrates\\": ""
+        }
+    }
+}

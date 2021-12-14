@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/topology.xsd">
+    <exchange name="as.order.comment" type="topic" connection="db">
+        <binding id="order_comment.add" topic="order_comment.add" destinationType="queue"
+                 destination="special_comment"/>
+    </exchange>
+</config>

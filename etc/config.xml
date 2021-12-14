@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <special_order_comment>
+            <general>
+                <enable>1</enable>
+                <comment_text>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</comment_text>
+            </general>
+        </special_order_comment>
+    </default>
+</config>
